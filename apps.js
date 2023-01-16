@@ -28,7 +28,7 @@ btnCreate.addEventListener('click', () => {
 	const input = document.querySelector('.input-main');
 	const list = document.querySelector('ul');
 	list.insertAdjacentHTML( 
-	  'beforebegin', 
+	  'afterbegin', 
 	  `<li>${input.value}</i>` 
 	);
 	input.value = '';
